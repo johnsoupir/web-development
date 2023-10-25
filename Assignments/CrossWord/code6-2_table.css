@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 2
+   
+   Author:    
+   Date:     
+   Filename: code6-2_table.css
+
+*/
+
+
+table {
+	margin: 20px 20px 20px 20px;
+	border-collapse: collapse;
+}
+
+thead > tr > th {
+	color: white;
+	background-color: red;
+	font-size: 1.5em;
+	border: 1px solid grey;
+
+
+}
+
+td {
+	width: 50px;
+	height: 50px;
+	font-size: 0.7em;
+	border: 1px solid grey;
+	vertical-align: top;
+	text-align: left;
+}
+
+td.blank {
+	background: linear-gradient(135deg,red,grey);
+
+
+
+}
+
+
+
+
